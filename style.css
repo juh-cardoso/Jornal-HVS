@@ -13,7 +13,7 @@ body {
 }
 
 header {
- 
+  background-color: rgba(255, 255, 255, 0.9);
   padding: 2rem;
   text-align: center;
   border-bottom: 2px solid #444;
@@ -44,11 +44,11 @@ header h1 {
 }
 
 .box {
-  background-color: #faf4e6;
+  background-color: #686663;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  border-left: 6px solid #8b5e3c;
+  border-left: 6px solid #0f0f0f;
   transition: transform 0.2s ease;
 }
 
@@ -59,12 +59,12 @@ header h1 {
 .box h2 {
   margin-top: 0;
   font-size: 1.5rem;
-  color: #5a3e2b;
+  color: #0f0f0f;
 }
 
 .box h2 a {
   text-decoration: none;
-  color: #5a3e2b;
+  color:#0f0f0f;
 }
 
 .box h2 a:hover {
