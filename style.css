@@ -21,56 +21,34 @@ header h1 {
   font-weight: bold;
 }
 
+.content-area {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.8);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  width: 100%;
+  max-width: 1300px;
 }
 
 .box {
-  background-color: hsla(45, 4%, 60%, 0.808);
+  background-color: #faf4e6;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  border-left: 6px solid #353534;
-} /* style.css */
-body {
-  font-family: 'Georgia', serif;
-  background: url("img/Black\ and\ White\ Classic\ Vintage\ Minimalist\ Newspaper\ Finance\ Report\ Presentation\ \(1\).png") no-repeat center center fixed;
-  background-size: cover;
-  color: #222;
-  margin: 0;
-  padding: 0;
+  border-left: 6px solid #8b5e3c;
+  transition: transform 0.2s ease;
 }
 
-header {
-  background-color: rgba(255, 255, 255, 0.9);
-  padding: 2rem;
-  text-align: center;
-  border-bottom: 2px solid #444;
-}
-
-header h1 {
-  font-size: 3rem;
-  margin: 0;
-  font-weight: bold;body {
-  height: 100%;
-  margin: 0;
-  font-family: 'Times New Roman', serif;
-  background-image: url("img/Black\ and\ White\ Classic\ Vintage\ Minimalist\ Newspaper\ Finance\ Report\ Presentation\ \(1\).png;
-  gap: 1.5rem;
-  padding: 2rem;
-  background-color: rgba(255, 255, 255, 0.8);
-}
-
-.box {
-  background-color: hsla(45, 4%, 60%, 0.808);
-  padding: 1.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  border-left: 6px solid #353534;
+.box:hover {
+  transform: translateY(-5px);
 }
 
 .box h2 {
@@ -79,25 +57,22 @@ header h1 {
   color: #5a3e2b;
 }
 
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: rgba(255,255,255,0.8);
-  font-style: italic;
-  border-top: 2px solid #444;
-}
-
-
-.box h2 {
-  margin-top: 0;
-  font-size: 1.5rem;
+.box h2 a {
+  text-decoration: none;
   color: #5a3e2b;
 }
 
+.box h2 a:hover {
+  text-decoration: underline;
+}
+
 footer {
   text-align: center;
-  padding: 1rem;
-  background-color: rgba(255,255,255,0.8);
+  padding: 2rem 1rem 1rem 1rem;
+  background-color: rgba(255,255,255,0.9);
   font-style: italic;
   border-top: 2px solid #444;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
