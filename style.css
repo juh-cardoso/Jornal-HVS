@@ -26,24 +26,35 @@ body {
   border-bottom: 2px solid #000;
 }
 
-.image-section {
+.center-section {
   display: flex;
   justify-content: center;
-  margin: 20px 0;
+  align-items: center;
+  gap: 40px;
+  margin: 40px auto;
+  flex-wrap: wrap;
+}
+
+.image-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
 }
 
 .main-image {
-  max-width: 90%;
+  width: 400px;
+  height: auto;
   border: 2px solid black;
+  object-fit: cover;
 }
 
 .news-section {
-  max-width: 900px;
-  margin: 0 auto 60px;
-  padding: 20px;
+  flex: 1;
   background-color: rgba(255,255,255,0.9);
+  padding: 20px;
   border: 2px solid #000;
   border-radius: 8px;
+  max-width: 400px;
 }
 
 .subtitle {
@@ -56,7 +67,7 @@ body {
 
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 15px;
   font-size: 18px;
   font-style: italic;
