@@ -1,7 +1,8 @@
-body {
+ body {
+  height: 100%;
   margin: 0;
   font-family: 'Times New Roman', serif;
-  background-image: url('img/Black\ and\ White\ Classic\ Vintage\ Minimalist\ Newspaper\ Finance\ Report\ Presentation\ \(1\).png');
+  background-image: url("img/Black\ and\ White\ Classic\ Vintage\ Minimalist\ Newspaper\ Finance\ Report\ Presentation\ \(1\).png");
   background-size: cover;
   background-attachment: fixed;
   color: #000;
@@ -19,7 +20,7 @@ body {
 .title {
   text-align: center;
   font-size: 36px;
-  margin: 30px 0 10px;
+  margin: 20px auto;
   padding: 10px;
   background-color: rgba(255,255,255,0.85);
   border-top: 2px solid #000;
@@ -30,31 +31,33 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
-  margin: 40px auto;
-  flex-wrap: wrap;
+  height: calc(100vh - 150px); /* altura total menos header e título */
+  gap: 80px;
+  padding: 20px 60px;
+  box-sizing: border-box;
 }
 
 .image-section {
-  flex: 1;
+  flex-shrink: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .main-image {
-  width: 400px;
+  width: 600px;
   height: auto;
-  border: 2px solid black;
+  border: 3px solid black;
   object-fit: cover;
 }
 
 .news-section {
-  flex: 1;
-  background-color: rgba(255,255,255,0.9);
+  flex: 0 0 400px;
+  background-color: rgba(255,255,255,0.95);
   padding: 20px;
   border: 2px solid #000;
   border-radius: 8px;
-  max-width: 400px;
+  margin-right: 40px; /* margem da parede direita */
 }
 
 .subtitle {
@@ -67,7 +70,7 @@ body {
 
 .news-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-columns: 1fr 1fr;
   gap: 15px;
   font-size: 18px;
   font-style: italic;
