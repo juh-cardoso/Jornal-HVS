@@ -30,11 +30,11 @@ header h1 {
 }
 
 .box {
-  background-color: #faf4e6;
+  background-color: hsla(45, 4%, 60%, 0.808);
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  border-left: 6px solid #8b5e3c;
+  border-left: 6px solid #353534;
 } /* style.css */
 body {
   font-family: 'Georgia', serif;
@@ -59,18 +59,18 @@ header h1 {
   height: 100%;
   margin: 0;
   font-family: 'Times New Roman', serif;
-  background-image: url("img/Bla…e-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-image: url("img/Black\ and\ White\ Classic\ Vintage\ Minimalist\ Newspaper\ Finance\ Report\ Presentation\ \(1\).png;
   gap: 1.5rem;
   padding: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
 .box {
-  background-color: #faf4e6;
+  background-color: hsla(45, 4%, 60%, 0.808);
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  border-left: 6px solid #8b5e3c;
+  border-left: 6px solid #353534;
 }
 
 .box h2 {
