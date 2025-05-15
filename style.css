@@ -2,7 +2,7 @@
 /* style.css */
 body {
   font-family: 'Georgia', serif;
-  background: url("img/Plain\ by\ Metropolitan\ Stories\ -\ Slate\ Grey\ -\ Wallpaper\ _\ Wallpaper\ Direct.jpeg") no-repeat center center fixed;
+  background: url("img/Gris\ sombra\ U963\ ST9.jpeg") no-repeat center center fixed;
   background-size: cover;
   color: #222;
   margin: 0;
@@ -47,7 +47,7 @@ header h1 {
   background-color: #999794;
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px #ffffff;
+  box-shadow: 0 4px 6px #ff0505;
   border-left: 6px solid #1b1b1a;
   transition: transform 0.2s ease;
 }
