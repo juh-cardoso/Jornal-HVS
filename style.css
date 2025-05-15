@@ -2,7 +2,7 @@
 /* style.css */
 body {
   font-family: 'Georgia', serif;
-  background: url("img/Fundo\ de\ jornal\ rasgado\ _\ Foto\ Premium.jpeg") no-repeat center center fixed;
+  background: url("img/Fundo\ de\ superfície\ aquarela\ cinza\ claro\ _\ Foto\ Premium.jpeg") no-repeat center center fixed;
   background-size: cover;
   color: #222;
   margin: 0;
@@ -16,7 +16,7 @@ header {
   background-color: rgba(196, 184, 172, 0.863);
   padding: 2rem;
   text-align: center;
-  border-bottom: 2px solid #dbd2d2;
+  border-bottom: 2px solid #494747;
 }
 
 header h1 {
@@ -48,7 +48,7 @@ header h1 {
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px #ffffff;
-  border-left: 6px solid #c2a177;
+  border-left: 6px solid #1b1b1a;
   transition: transform 0.2s ease;
 }
 
@@ -63,7 +63,7 @@ header h1 {
 
 .box h2 a {
   text-decoration: none;
-  color:#cac0c0;
+  color:#aaa9a9;
 }
 
 .box h2 a:hover {
@@ -73,7 +73,7 @@ header h1 {
 footer {
   text-align: center;
   padding: 1.5rem 1rem;
-  background-color: #7e7a7a;
+  background-color: #5a5757;
   font-style: italic;
-  border-top: 2px solid #ffffff;
+  border-top: 2px solid #837e7e;
 }
