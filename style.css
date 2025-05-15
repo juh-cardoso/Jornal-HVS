@@ -2,7 +2,7 @@
 /* style.css */
 body {
   font-family: 'Georgia', serif;
-  background: url("img/Gris\ sombra\ U963\ ST9.jpeg") no-repeat center center fixed;
+  background: url("img/Tinta\ acrílica\ standard\ fosco\ 3\,6l.jpeg") no-repeat center center fixed;
   background-size: cover;
   color: #222;
   margin: 0;
@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-  font-size: #f80000 3rem;
+  font-size: #aaaaaa 3rem;
   margin: 20;
   font-weight: bold;
 }
@@ -47,7 +47,7 @@ header h1 {
   background-color: #999794;
   padding: 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 4px 6px #ff0505;
+  box-shadow: 0 4px 6px #aaaaaaaa;
   border-left: 6px solid #1b1b1a;
   transition: transform 0.2s ease;
 }
