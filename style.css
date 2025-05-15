@@ -58,12 +58,12 @@ header h1 {
 .box h2 {
   margin-top: 0;
   font-size: 1.5rem;
-  color: fuyh#ffffff;
+  color: fuyh#000000;
 }
 
 .box h2 a {
   text-decoration: none;
-  color:#ffffff;
+  color:#ff0000;
 }
 
 .box h2 a:hover {
