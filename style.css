@@ -44,7 +44,7 @@ header h1 {
 }
 
 .box {
-  background-color: #7e7e7d;
+  background-color: #b3b3ae;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px #ffffff;
@@ -63,7 +63,7 @@ header h1 {
 
 .box h2 a {
   text-decoration: none;
-  color:#ff0000;
+  color:#ffffff;
 }
 
 .box h2 a:hover {
