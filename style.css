@@ -48,7 +48,7 @@ header h1 {
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  border-left: 6px solid #0f0f0f;
+  border-left: 6px solid #ffffff;
   transition: transform 0.2s ease;
 }
 
