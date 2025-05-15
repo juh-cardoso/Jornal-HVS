@@ -2,7 +2,7 @@
 /* style.css */
 body {
   font-family: 'Georgia', serif;
-  background: url("img/Light\ Photos\ -\ Download\ Free\ High-Quality\ Pictures\ _\ Freepik.jpeg") no-repeat center center fixed;
+  background: url("img/Fundo\ De\ Textura\ De\ Jornal\ Retrô\ imagem\,imagem….jpeg") no-repeat center center fixed;
   background-size: cover;
   color: #222;
   margin: 0;
@@ -13,10 +13,10 @@ body {
 }
 
 header {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(221, 169, 120, 0.863);
   padding: 2rem;
   text-align: center;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #ddd8d8;
 }
 
 header h1 {
@@ -44,11 +44,11 @@ header h1 {
 }
 
 .box {
-  background-color: #b3b3ae;
+  background-color: #be9668;
   padding: 1.5rem;
   border-radius: 12px;
   box-shadow: 0 4px 6px #ffffff;
-  border-left: 6px solid #000000;
+  border-left: 6px solid #c2a177;
   transition: transform 0.2s ease;
 }
 
